@@ -53,7 +53,7 @@ ssh 10.0.1.x
 # EC2インスタンス上でGitHubからcloneするなら
 eval `ssh-agent`
 ssh-add ~/.ssh/[GitHubの秘密鍵]
-ssh 10.0.1.x
+ssh 10.0.1.x -A
 ```
 
 ### VS CodeでEC2インスタンス上のファイルを編集
