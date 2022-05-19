@@ -1,0 +1,4 @@
+access_key        = "AWSアクセスキー"
+secret_key        = "AWSシークレットキー"
+tailscale_authkey = "tailscaleのAuthkey"
+developer_pubkey  = "EC2インスタンスキーペアに設定するSSHキーペアの公開鍵"
