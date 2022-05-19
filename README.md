@@ -56,6 +56,10 @@ ssh-add ~/.ssh/[GitHubの秘密鍵]
 ssh 10.0.1.x
 ```
 
+### VS CodeでEC2インスタンス上のファイルを編集
+
+https://code.visualstudio.com/docs/remote/ssh
+
 # 参考リンク
 
 - https://tailscale.com/kb/1021/install-aws/
