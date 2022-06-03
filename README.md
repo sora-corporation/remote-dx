@@ -29,6 +29,11 @@ terraform apply -auto-approve
 # （`TF_VAR_変数名` で設定）
 ```
 
+Terraform適用後、tailscaleの管理画面に `Subnets` のタグが付いたマシンが追加されているので、 `[Edit route settings]` から有効化
+
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/133594/171769992-86dd885a-d1fa-4666-8176-6196e40623ad.png">
+
+
 ローカルPCにtailscaleをセットアップし、VPCプライベートサブネット内に構築された `under-tailscale` のEC2インスタンスのプライベートIPアドレスに通信できることを確認
 ```
 ping 10.0.1.x
