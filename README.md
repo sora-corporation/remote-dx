@@ -29,7 +29,7 @@ terraform apply -auto-approve
 # （`TF_VAR_変数名` で設定）
 ```
 
-Terraform適用後、tailscaleの管理画面に `Subnets` のタグが付いたマシンが追加されているので、 `[Edit route settings]` から有効化
+Terraform適用後、tailscaleの管理画面に `Subnets` のタグが付いたマシンが追加されているので、 `[Edit route settings]` から有効化。[鍵の有効期限もなしに設定](https://tailscale.com/kb/1021/install-aws/#step-5-configure-your-tailscale-network)しておく。
 
 <img width="494" alt="image" src="https://user-images.githubusercontent.com/133594/171769992-86dd885a-d1fa-4666-8176-6196e40623ad.png">
 
